@@ -7,8 +7,11 @@
 #include <stdarg.h>
 #include <string.h>
 
-int _putchar(char c);
 int _printf(const char *format, ...);
+int _putchar(char c);
 int printf_char(va_list arg);
+int printf_str(va_list arg);
+int _strlen(char *str);
+int putss(char *str);
 
 #endif
